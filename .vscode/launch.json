@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    
+    "version": "2.0.0",
+    "tasks": [
+        {
+            
+            "label": "build g++",
+            "type": "shell",
+
+            "command": "E:\\software\\mingw\\MinGW\bin\\g++.exe",
+            "args": ["-g", "-o", "${fileBasenameNoExtension}", "${fileBasename}"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "configurations": [
+    
+    ]
+}
